@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf lab
+ln -s /content/drive/MyDrive/$1 lab
+ls -l

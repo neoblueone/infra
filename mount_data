@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -rf lab
+ln -s /content/drive/MyDrive/$1 lab
+#ln -s /content/drive/MyDrive/$1/data data
+cp -r /content/drive/MyDrive/$1/data data
+ls -l
